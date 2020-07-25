@@ -1,0 +1,126 @@
+.redes img{
+
+	border-radius: 100%;
+	padding:4px;
+	transition: all 0.4s linear;
+}
+.redes img:hover{
+	transform: scale(1.5) rotate(380deg);
+}
+.redes a:hover img{
+	background: grey;
+
+}
+.flecha img{
+
+	border-radius: 100%;
+	transition: all 0.4s linear;
+}
+.flecha a:hover img{
+	background: red;
+	transform: scale(1.5);
+
+}
+.flechaa img{
+
+	border-radius: 100%;
+	transition: all 0.4s linear;
+}
+.flechaa a:hover img{
+	background: grey;
+	transform: scale(1.5);
+
+}
+.pie{
+	background: #8FFB51;
+}
+#contac{
+	color: #DC300A;
+}
+header{
+	background: #8FFB51;
+}
+#titu{
+    color: #680489;
+    font-family: Goudy Stout;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 20px
+}
+#navbarDropdown{
+	color: black;
+	font-family: Arial Black;
+}
+/* titulo de oferta*/
+.oferta{
+	color: #cf3476;
+	font-family: Rockwell Extra Bold;
+	font-weight: bold;
+	position: relative;
+}
+/*.oferta{
+
+	background: #ff0000;
+	position: absolute;
+	top: 0
+}*/
+@-webkit-keyframes mover_oferta{
+	0%{left:20%;}
+	50%{left:0%;}
+	100%{left:0%;}
+}
+@-moz-keyframes mover_oferta{
+	0%{left:20%;}
+	50%{left:0%;}
+	100%{left:0%;}
+}
+.oferta{
+	-webkit-animation:mover_oferta 8s infinite;
+	-moz-animation: mover_oferta 8s infinite;
+}
+/*logo animacion*/
+#logo{
+	display: table-cell;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	height: 50px;
+	width: 50px;
+	background: #dedede;
+	text-align: center;
+	vertical-align: middle;
+
+}
+@-webkit-keyframes rotar{
+	0%{-webkit-transform:scale(1) rotate(0deg);}
+	0%{-webkit-transform:scale(1.5) rotate(180deg);}
+	0%{-webkit-transform:scale(1) rotate(360deg);}
+}
+@-moz-keyframes rotar{
+	0%{-moz-transform:scale(1) rotate(0deg);}
+	0%{-moz-transform:scale(1.5) rotate(180deg);}
+	0%{-moz-transform:scale(1) rotate(360deg);}
+}
+#logo{
+	-webkit-animation:rotar  12s linear infinite;
+	-moz-animation: rotar  12s linear infinite;
+}
+#imagencard{
+	transition: all 0.4s linear;
+	/*filter: grayscale(100%);*/
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+	transition: all 0.3s linear
+}
+#imagencard:hover{
+	transform: scale(1.1);
+	filter: grayscale(0%);
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+	transition: all 0.3s linear
+
+}
